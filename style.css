@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+body{
+    background-color: hsla(257, 55%, 15%, 0.87);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Cherry Bomb One;
+    font-kerning: none; 
+    color: hsl(0, 0%, 100%);
+}
+
+.container{
+    background-color:hsla(257, 100%, 81%, 0.6);
+    display: block;
+    border-radius: 30px;
+    width:fit-content;
+    padding: 30px 30px;
+    padding-top: 10px;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-decoration: underline dotted 5px;
+    
+}
+
+#count{
+    display: block;
+    font-size: 8em;
+    font-family: Cherry Bomb One;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 2px 2px 6px hsla(257, 55%, 15%, 0.87);
+}
+
+#decrease{
+    padding: 5px 40px;
+}
+
+#increase{
+    padding: 5px 40px;
+}
+
+.buttons{
+    padding:  5px 30px;
+    margin-left: 10px;
+    background-color: hsl(261, 100%, 87%);
+    box-shadow: 5px 5px 10px -3px hsla(257, 55%, 15%, 0.87);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+    font-size: 2em;
+    font-family: Cherry Bomb One;
+    font-kerning: none;
+    text-transform: uppercase;
+    color: hsl(261, 44%, 42%); 
+}
+
+.buttons:hover{
+    background-color: hsl(261, 44%, 42%);
+    color: white;
+}
